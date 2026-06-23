@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priya Ambastha | Data Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Custom trailing cursor (desktop only) -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <header class="hero">
+    <nav>
+      <div class="logo">Priya Ambastha</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Data Engineer &middot; Analytics &middot; AI-Assisted Workflows</p>
+      <h1>Building reliable data platforms and AI&#8209;enabled analytics solutions.</h1>
+      <p class="subtitle">Based in Stockholm, I work with Azure Databricks, SQL, Python, ADF, Power BI, dbt, Claude Code, MCP, N8N and modern data engineering practices.</p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="https://github.com/Priya-BI" target="_blank">
+          <i class="fa-brands fa-github" aria-hidden="true"></i> View GitHub
+        </a>
+        <a class="btn secondary" href="https://www.linkedin.com/in/priya-ambastha-9b358925" target="_blank">
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn
+        </a>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span class="scroll-text">Scroll</span>
+      </div>
+    </section>
+  </header>
+
+  <main>
+
+    <section id="about" class="section about">
+      <div class="about-layout">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>I am a Data Engineer and Analyst with 3+ years of experience building cloud-native data pipelines, data models and analytics solutions. I focus on data quality, scalable ETL/ELT workflows, business-ready reporting and AI-assisted automation. Recently, I have been actively experimenting with Claude Code, MCP, Cursor, N8N and Lovable to accelerate Data Engineering and Analytics workflows.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Live Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">AI</span>
+            <span class="stat-label">Enabled Workflows</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Selected Projects</h2>
+      <div class="bento-grid">
+
+        <article class="card featured" data-metric="Medallion Architecture · Spark · Asset Bundles">
+          <span class="tag">Databricks + Claude CLI</span>
+          <h3>SQL Server to Databricks Migration</h3>
+          <p>AI-assisted migration of a traditional SQL Server HR analytics setup into Azure Databricks using Medallion Architecture, Spark Declarative Pipelines, Databricks Asset Bundles, and automated validation tests comparing SQL outputs with Databricks results.</p>
+          <a href="https://github.com/Priya-BI/sql-to-dbx-migration" target="_blank" class="card-link">
+            View repository <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </article>
+
+        <article class="card" data-metric="Labor rights · EU workforce data">
+          <span class="tag">AI + Data Visualization</span>
+          <h3>Equal EU Score</h3>
+          <p>Built an AI-assisted labor rights analytics application using Lovable to explore workforce equality, gender pay gap, employment rates, poverty risk, working hours, and job tenure across Europe.</p>
+          <a href="https://equal-eu-score.lovable.app/#top" target="_blank" class="card-link">
+            Open app <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </article>
+
+        <article class="card" data-metric="Multi-format PDF → structured datasets">
+          <span class="tag">Document Intelligence</span>
+          <h3>AI Document Parsing in Databricks</h3>
+          <p>Implemented AI-based document parsing to transform multi-format PDFs into structured, analytics-ready datasets for downstream reporting and analysis.</p>
+          <a href="https://github.com/Priya-BI/IDP_ai.git" target="_blank" class="card-link">
+            View GitHub <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </article>
+
+        <article class="card" data-metric="n8n · Docker · Claude MCP">
+          <span class="tag">n8n + Claude + MCP</span>
+          <h3>AI Workflow Automation</h3>
+          <p>Created a self-hosted n8n automation workflow using Docker, Claude Code, and MCP to generate, validate, and deploy AI-assisted workflows from natural language prompts.</p>
+          <a href="https://www.linkedin.com/posts/priya-ambastha-9b358925_claudecode-n8n-aiautomation-ugcPost-7465323944363970561-HsPk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAU_FlcBotOe2pRY2smuTY_f7g2wtuZdjpE" target="_blank" class="card-link">
+            View LinkedIn Post <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </article>
+
+        <article class="card" data-metric="Bronze → Silver → Gold · DQ rules">
+          <span class="tag">Spark Declarative Pipelines</span>
+          <h3>SDP using Claude Code</h3>
+          <p>Created Declarative Spark Pipelines using Claude Code assisted code generation, implementing Medallion Architecture with automated testing and validation of data quality rules.</p>
+          <a href="https://github.com/Priya-BI/sdp_dabs.git" target="_blank" class="card-link">
+            View GitHub <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <h2>Technical Skills</h2>
+      <div class="skill-grid">
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-database" aria-hidden="true"></i> Data Engineering</h3>
+          <ul class="skill-list">
+            <li>Azure Databricks</li>
+            <li>Spark SQL</li>
+            <li>Delta Lake</li>
+            <li>Medallion Architecture</li>
+            <li>DLT / Lakeflow</li>
+            <li>ETL / ELT</li>
+            <li>Data Modelling</li>
+            <li>dbt</li>
+            <li>ADF</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-chart-pie" aria-hidden="true"></i> Analytics &amp; BI</h3>
+          <ul class="skill-list">
+            <li>Power BI</li>
+            <li>DAX</li>
+            <li>KPI Reporting</li>
+            <li>Data Quality</li>
+            <li>Dashboard Development</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-robot" aria-hidden="true"></i> AI &amp; Automation</h3>
+          <ul class="skill-list">
+            <li>Claude Code CLI</li>
+            <li>MCP</li>
+            <li>Cursor IDE</li>
+            <li>n8n</li>
+            <li>Lovable</li>
+            <li>GitHub Automation</li>
+            <li>AI-assisted Documentation</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-code" aria-hidden="true"></i> Development</h3>
+          <ul class="skill-list">
+            <li>SQL</li>
+            <li>Python</li>
+            <li>GitHub / Azure DevOps</li>
+            <li>VS Code</li>
+            <li>Databricks Asset Bundles</li>
+            <li>Markdown / Mermaid</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="timeline-track">
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <div class="timeline-meta">
+              <span class="timeline-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i> Feb 2026 – Present
+              </span>
+              <span class="timeline-badge">Current</span>
+            </div>
+            <h3>Professional Development &amp; Independent Projects</h3>
+            <p>Building AI-assisted data engineering and analytics projects using Claude Code, MCP, Databricks, n8n, Lovable, and GitHub workflows.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <div class="timeline-meta">
+              <span class="timeline-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i> Aug 2025 – Jan 2026 &middot; Stockholm
+              </span>
+            </div>
+            <h3>Consultant Data Engineer — Bytespoke / Swedbank</h3>
+            <p>Worked with Azure Databricks, Medallion Architecture, Spark SQL, metadata-driven pipelines, data quality rules, Databricks Asset Bundles, dbt migration support, and GitHub branching workflows.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <div class="timeline-meta">
+              <span class="timeline-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i> Sep 2021 – Oct 2024 &middot; Stockholm
+              </span>
+            </div>
+            <h3>Consultant Data Engineer / Analyst — ADAGE</h3>
+            <p>Built ELT pipelines with Azure Data Factory, designed HR analytics data models, developed Power BI dashboards, and supported workforce reporting for HR and leadership teams.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-body">
+            <div class="timeline-meta">
+              <span class="timeline-date">
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i> 2005 – 2012 &middot; India
+              </span>
+            </div>
+            <h3>Software Engineer — Cognizant / Sopra / HPM Group</h3>
+            <p>Worked as SAP ABAP developer across SD, MM, PP, and FI modules, developing reports, interfaces, tables, screens, and migration-related components.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="certifications" class="section certifications">
+      <h2>Certifications</h2>
+      <div class="certs">
+        <div class="cert-badge">
+          <i class="fa-solid fa-award" aria-hidden="true"></i>
+          <span>Databricks Certified Data Engineer Associate</span>
+        </div>
+        <div class="cert-badge">
+          <i class="fa-solid fa-award" aria-hidden="true"></i>
+          <span>Microsoft Certified Power BI Data Analyst Associate</span>
+        </div>
+        <div class="cert-badge">
+          <i class="fa-solid fa-award" aria-hidden="true"></i>
+          <span>Databricks Lakehouse Fundamentals</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-inner">
+        <p class="contact-eyebrow">Let's connect</p>
+        <h2>Open to new opportunities</h2>
+        <p class="contact-desc">Open to Data Engineer, Data Analyst, Analytics Engineer, AI-assisted Data Engineering, and remote / freelance opportunities.</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:Priya.ambastha@outlook.com">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i> Priya.ambastha@outlook.com
+          </a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/priya-ambastha-9b358925" target="_blank">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i> Connect on LinkedIn
+          </a>
+        </div>
+        <p class="contact-location">
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Stockholm, Sweden
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-logo">Priya Ambastha</span>
+      <span class="footer-copy">&copy; 2026 &middot; Built with Claude Code + modern data engineering spirit.</span>
+      <div class="footer-links">
+        <a href="https://github.com/Priya-BI" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/priya-ambastha-9b358925" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky nav
+    const nav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Mobile hamburger
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.classList.toggle('active');
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.classList.remove('active');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Custom trailing cursor (fine pointer / desktop only)
+    if (window.matchMedia('(pointer: fine)').matches) {
+      document.body.classList.add('cursor-active');
+      const dot  = document.querySelector('.cursor-dot');
+      const ring = document.querySelector('.cursor-ring');
+      let mx = 0, my = 0, rx = 0, ry = 0;
+      window.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+      (function tick() {
+        dot.style.transform  = `translate(${mx - 3}px, ${my - 3}px)`;
+        rx += (mx - rx) * 0.12;
+        ry += (my - ry) * 0.12;
+        ring.style.transform = `translate(${rx - 18}px, ${ry - 18}px)`;
+        requestAnimationFrame(tick);
+      })();
+      document.querySelectorAll('a, button, .card, .cert-badge, .stat').forEach(el => {
+        el.addEventListener('mouseenter', () => ring.classList.add('hover'));
+        el.addEventListener('mouseleave', () => ring.classList.remove('hover'));
+      });
+    }
+  </script>
+</body>
+</html>
